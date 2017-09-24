@@ -15,6 +15,7 @@ const events = [{
       end_date: "2017-12-12T17:00:00Z",
       location: "Somewhere over the Rainbow"
     },
+    image: "https://lorempixel.com/800/500/people/9/",
   },
   {
     uid: "event2",
@@ -34,14 +35,14 @@ const events = [{
       end_date: "2017-12-12T17:00:00Z",
       location: "Somewhere over the Rainbow"
     },
-    image: "https://lorempixel.com/600/300/food/5/",
+    image: "https://lorempixel.com/800/500/technics/5/",
     category: "other"
   },
   {
     uid: "event3",
     title: "Event Title",
     subtitle: "Some subtitle with more info about the event",
-    image: "https://lorempixel.com/600/300/food/1/",
+    image: "https://lorempixel.com/800/500/technics/1/",
     category: "tech",
     info: {
       start_date: "2017-12-12T12:00:00Z",
@@ -55,7 +56,7 @@ const events = [{
     uid: "event4",
     title: "Event Title",
     subtitle: "Some subtitle with more info about the event",
-    image: "https://lorempixel.com/600/300/food/4/",
+    image: "https://lorempixel.com/800/500/technics/4/",
     category: "other",
     info: {
       start_date: "2017-12-12T12:00:00Z",
@@ -67,7 +68,7 @@ const events = [{
     uid: "event5",
     title: "Event Title",
     subtitle: "Some subtitle with more info about the event",
-    image: "https://lorempixel.com/600/300/food/3/",
+    image: "https://lorempixel.com/800/500/technics/3/",
     category: "tech",
     info: {
       start_date: "2017-12-12T12:00:00Z",
@@ -102,7 +103,7 @@ const events = [{
     uid: "event8",
     title: "Event Title",
     subtitle: "Some subtitle with more info about the event",
-    image: "https://lorempixel.com/600/300/food/6/",
+    image: "https://lorempixel.com/800/500/technics/6/",
     category: "tech",
     info: {
       start_date: "2017-12-12T12:00:00Z",
@@ -114,7 +115,7 @@ const events = [{
     uid: "event9",
     title: "Event Title",
     subtitle: "Some subtitle with more info about the event",
-    image: "https://lorempixel.com/600/300/food/7/",
+    image: "https://lorempixel.com/800/500/technics/7/",
     category: "other",
     info: {
       start_date: "2017-12-12T12:00:00Z",
