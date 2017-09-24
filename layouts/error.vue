@@ -6,8 +6,8 @@
     <h2 class="info">
       {{ error.message }}
     </h2>
-    <nuxt-link class="button" to="/" v-if="error.statusCode === 404">
-      Homepage
+    <nuxt-link to="/" v-if="error.statusCode === 404">
+      <h3 class="button">Go back home</h3>
     </nuxt-link>
   </section>
 </template>
@@ -31,6 +31,6 @@ export default {
 }
 .button
 {
-  margin-top: 50px;
+  margin-top: 18px;
 }
 </style>
