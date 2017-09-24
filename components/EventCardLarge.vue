@@ -12,7 +12,9 @@
             {{item.subtitle}}
         </h5>
         <div v-html="item.description"></div>
-        
+        <div slot="footer">
+                <b-button variant="default" to="/">&lt;Go back to list</b-button>
+        </div>
     </b-card>
     
 </template>

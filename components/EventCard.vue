@@ -5,9 +5,8 @@
             <em>{{date}}</em><br> {{item.subtitle}}
         </p>
         <div slot="footer">
-            <nuxt-link :to="item.uid">
-                <b-button variant="primary">Read more</b-button>
-            </nuxt-link>
+                <b-button :to="item.uid" variant="primary">Read more</b-button>
+            
         </div>
     </b-card>
 </template>
